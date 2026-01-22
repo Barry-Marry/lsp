@@ -12,6 +12,7 @@ while true; do
     echo "${GREEN}      LSP Root 工具箱 - 总控制台      ${NC}"
     echo "${BLUE}======================================${NC}"
     echo " 1) 备份系统文件 (Backup)"
+    echo " 5) 生成系统全量快照 (Snapshot)"
     echo " 2) 开启隐身模式 (Stealth Mode)"
     echo " 3) 实时监控日志 (Log Monitor)"
     echo " 4) 卸载/清理工具 (Uninstall)"
