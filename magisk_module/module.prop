@@ -1,6 +1,7 @@
 id=lsp_root_tools
-name=LSP Root Tools Box
-version=v1.0
-versionCode=1
+name=LSP 高级 Root 工具箱
+version=v1.1-Stable
+versionCode=20260122
 author=BarryMarry
-description=一个集成了备份、隐身和快照功能的 Root 工具箱。
+description=集成系统备份、隐身模式、实时日志监控及全量快照的综合型 Root 维护工具。支持终端输入 lsp-menu 快速启动。
+support=https://github.com/BarryMarry/lsp
