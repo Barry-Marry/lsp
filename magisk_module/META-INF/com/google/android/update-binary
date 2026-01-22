@@ -1,0 +1,16 @@
+#!/sbin/sh
+# Magisk 模块安装环境由 Magisk 自动处理
+OUTFD=$2
+ZIPFILE=$3
+
+ui_print "*******************************"
+ui_print "* LSP Root Tools Box     *"
+ui_print "* Installer by Magisk    *"
+ui_print "*******************************"
+
+# 解压文件到临时目录
+unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
+
+# 设置权限
+set_perm_recursive $MODPATH/system/bin 0 0 0755 0755
+ui_print "- 安装完成！重启后输入 lsp-menu 运行。"

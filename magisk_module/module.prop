@@ -1,0 +1,6 @@
+id=lsp_root_tools
+name=LSP Root Tools Box
+version=v1.0
+versionCode=1
+author=BarryMarry
+description=一个集成了备份、隐身和快照功能的 Root 工具箱。
